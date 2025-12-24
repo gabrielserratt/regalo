@@ -47,6 +47,15 @@
             font-weight: 300;
             letter-spacing: 2px;
         }
+        .invitation-img {
+        width: 100%;
+        max-width: 350px;
+        margin: 30px auto;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
     </style>
 </head>
 
@@ -64,18 +73,19 @@
 
 <!-- Invitación -->
 <div class="card">
-    <h1>Estás Invitado</h1>
-    <p>Nos encantaría compartir este momento especial con vos</p>
+    <h1>Ah, Pero!</h1>
+    <p>Sé que el partido se pinchó, pero te quería regalar un mejor plan</p>
 
-    <p><strong>📅 Fecha:</strong> 15 de marzo</p>
-    <p><strong>📍 Lugar:</strong> Mi casa</p>
-    <p><strong>🕒 Hora:</strong> 21:00 hs</p>
+    <p><strong>📅 Fecha:</strong> 25 de diciembre</p>
+    <p><strong>📍 Lugar:</strong> GROOVE</p>
+    <p><strong>🕒 Hora:</strong> 19:00 hs</p>
+    <img src="img/invitacion.png" class="invitation-img" alt="Invitación">
 </div>
 
 <script>
     function startExperience() {
         const music = document.getElementById("music");
-        music.volume = 0.4;
+        music.volume = 0.8;
         music.play();
 
         document.getElementById("overlay").style.display = "none";
